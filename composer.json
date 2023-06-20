@@ -1,0 +1,37 @@
+{
+    "name": "dannyvdsluijs/php-parallel-processing",
+    "description": "A playground project to play with parallel processing using PHP",
+    "type": "project",
+    "keywords": [
+        "parallel",
+        "PCNTL",
+        "Process Control"
+    ],
+    "homepage": "https://www.dannyvandersluijs.nl",
+    "readme": "README.md",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danny van der Sluijs",
+            "email": "danny.vandersluijs@icloud.com",
+            "homepage": "https://www.dannyvandersluijs.nl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "symfony/console": "^6.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpParallelProcessing\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
